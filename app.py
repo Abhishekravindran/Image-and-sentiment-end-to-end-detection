@@ -28,7 +28,7 @@ app = Flask(__name__)
 # Load your trained model
 model = load_model('model_Face.h5')
 #model1 = load_model('emotion_Face.h5')
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+#os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 #m=RMN()
 #model=keras.models.load_model('model_vgg19.h5')
 
